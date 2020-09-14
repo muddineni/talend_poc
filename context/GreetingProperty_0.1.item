@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_r6FPsMAHEeqxiIdogblnuA" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_r6FPscAHEeqxiIdogblnuA" comment="" name="greeting" prompt="greeting?" promptNeeded="false" type="id_String" value="Hello World!!! I'm from DEFAULT environment"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_XL3VYMAhEeqxiIdogblnuA" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_XL3VYcAhEeqxiIdogblnuA" comment="" name="greeting" prompt="greeting?" promptNeeded="false" type="id_String" value="Hello World!!! I'm from DEV environment"/>
+  </talendfile:ContextType>
+</xmi:XMI>

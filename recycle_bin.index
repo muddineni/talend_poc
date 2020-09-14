@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-08-24T15:46:16.312+0530">
+  <deletedFolders>routes/sample_folder</deletedFolders>
+  <deletedItems id="_u_zCALuqEeqn95pfxivhTA" path="" type="RESOURCES"/>
+  <deletedItems id="_bXXAkLxfEeqLqeId5fvjKQ" path="" type="JSON"/>
+  <deletedItems id="_CeVmoLxhEeqLqeId5fvjKQ" path="" type="METADATA_FILE_XML"/>
+  <deletedItems id="_Qaiu8MpbEeqNYKkxc_UL4A" path="" type="SERVICES"/>
+  <deletedItems id="_T5ZzwMphEeqNYKkxc_UL4A" path="" type="ROUTE"/>
+</recyclebin:RecycleBin>

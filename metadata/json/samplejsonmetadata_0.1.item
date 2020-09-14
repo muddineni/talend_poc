@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_bX-roLxfEeqLqeId5fvjKQ" name="samplejsonmetadata" id="_bXXAkLxfEeqLqeId5fvjKQ" dataPackage="_bX_SsLxfEeqLqeId5fvjKQ" JSONFilePath="C:/Users/584976/OneDrive - Cognizant/Documents/talend_test/jsonsample.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_bX-robxfEeqLqeId5fvjKQ" LimitBoucle="50" AbsoluteXPathQuery="/">
+      <schemaTargets xmi:id="_bX-rorxfEeqLqeId5fvjKQ" RelativeXPathQuery="$.employes[*].name" TagName="name2"/>
+      <schemaTargets xmi:id="_bX-ro7xfEeqLqeId5fvjKQ" RelativeXPathQuery="$.employes[*].age" TagName="age1"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bX_SsLxfEeqLqeId5fvjKQ" name="default" dataManager="_bX-roLxfEeqLqeId5fvjKQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bYOjQLxfEeqLqeId5fvjKQ" id="_wlKQgLxeEeqLqeId5fvjKQ" label="metadata"/>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

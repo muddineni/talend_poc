@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="XMLConsumerAMQ-feature">
+<feature name="XMLConsumerAMQ-feature" version="0.1.0">
+<feature>camel-spring</feature>
+<feature>camel-blueprint</feature>
+<feature>camel-core</feature>
+<feature>camel-jms</feature>
+<feature>camel-cxf</feature>
+<bundle>mvn:org.example.local_project.route/XMLConsumerAMQ/0.1.0</bundle>
+<config name="XMLConsumerAMQ.talendcontext.Default" override="true">
+</config>
+</feature>
+</features>

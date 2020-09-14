@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="SoapWebserviceImplRoute2-feature">
+<feature name="SoapWebserviceImplRoute2-feature" version="0.1.0">
+<feature>camel-spring</feature>
+<feature>camel-blueprint</feature>
+<feature>camel-core</feature>
+<feature>camel-cxf</feature>
+<bundle>mvn:org.example.local_project.route/SoapWebserviceImplRoute2/0.1.0</bundle>
+<config name="SoapWebserviceImplRoute2.talendcontext.DEV" override="true">
+greeting=Hello World!!! I'm from DEV environment
+</config>
+<config name="SoapWebserviceImplRoute2.talendcontext.Default" override="true">
+greeting=Hello World!!! I'm from DEFAULT environment
+</config>
+</feature>
+</features>

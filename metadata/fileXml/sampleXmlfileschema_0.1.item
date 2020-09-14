@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_CeW0wLxhEeqLqeId5fvjKQ" name="sampleXmlfileschema" dataPackage="_CeW0xLxhEeqLqeId5fvjKQ" XmlFilePath="C:/Users/584976/OneDrive - Cognizant/Documents/talend_test/samplexml.xml" Encoding="UTF-8" fileContent="3C456D706C6F796565733E0D0A3C456D706C6F7965653E0D0A3C6E616D653E53616D706174683C2F6E616D653E0D0A3C6167653E33303C2F6167653E0D0A3C2F456D706C6F7965653E0D0A3C456D706C6F7965653E0D0A3C6E616D653E4D756464696E656E693C2F6E616D653E0D0A3C6167653E33313C2F6167653E0D0A3C2F456D706C6F7965653E0D0A3C2F456D706C6F796565733E">
+    <schema xmi:id="_CeW0wbxhEeqLqeId5fvjKQ" LimitBoucle="50">
+      <schemaTargets xmi:id="_CeW0wrxhEeqLqeId5fvjKQ" RelativeXPathQuery="" TagName="name"/>
+      <schemaTargets xmi:id="_CeW0w7xhEeqLqeId5fvjKQ" RelativeXPathQuery="" TagName="age"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_CeW0xLxhEeqLqeId5fvjKQ" name="default" dataManager="_CeW0wLxhEeqLqeId5fvjKQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_CeW0xbxhEeqLqeId5fvjKQ" id="_rjeNYLxgEeqLqeId5fvjKQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CeW0xrxhEeqLqeId5fvjKQ" name="name" label="name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CeW0x7xhEeqLqeId5fvjKQ" name="age" label="age" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

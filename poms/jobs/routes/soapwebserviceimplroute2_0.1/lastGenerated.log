@@ -1,0 +1,107 @@
+[INFO] Disabling enhanced local repository: using legacy is strongly discouraged to ensure build reproducibility.
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] LOCAL_PROJECT SoapWebserviceImplRoute2-0.1.0 (0.1,Routes) Kar      [pom]
+[INFO] LOCAL_PROJECT SoapWebserviceImplRoute2-0.1.0 (0.1,Routes) Bundle   [jar]
+[INFO] LOCAL_PROJECT SoapWebserviceImplRoute2-0.1.0 (0.1,Routes) Feature  [pom]
+[INFO] 
+[INFO] ----< org.example.local_project.route:SoapWebserviceImplRoute2-Kar >----
+[INFO] Building LOCAL_PROJECT SoapWebserviceImplRoute2-0.1.0 (0.1,Routes) Kar 0.1.0 [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ------< org.example.local_project.route:SoapWebserviceImplRoute2 >------
+[INFO] Building LOCAL_PROJECT SoapWebserviceImplRoute2-0.1.0 (0.1,Routes) Bundle 0.1.0 [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for aopalliance:aopalliance:jar:1.0 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-core:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-bindings-soap:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-bindings-xml:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-frontend-simple:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-transports-http:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-ws-addr:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-ws-policy:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-wsdl:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.dom4j:dom4j:jar:2.1.1 is missing, no dependency information available
+[WARNING] The POM for com.sun.activation:javax.activation:jar:1.2.0 is missing, no dependency information available
+[WARNING] The POM for javax.ws.rs:javax.ws.rs-api:jar:2.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.logging.log4j:log4j-api:jar:2.12.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.logging.log4j:log4j-core:jar:2.12.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.logging.log4j:log4j-slf4j-impl:jar:2.12.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.neethi:neethi:jar:3.1.1 is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ SoapWebserviceImplRoute2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ SoapWebserviceImplRoute2 ---
+[WARNING] The POM for org.eclipse.platform:org.eclipse.osgi:jar:3.13.300 is missing, no dependency information available
+[WARNING] The POM for org.apache.commons:commons-exec:jar:1.2 is missing, no dependency information available
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ SoapWebserviceImplRoute2 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ SoapWebserviceImplRoute2 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ SoapWebserviceImplRoute2 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ SoapWebserviceImplRoute2 ---
+[INFO] Building jar: C:\nss\TOS_ESB-20200219_1130-V7.3.1\Studio\workspace\LOCAL_PROJECT\poms\jobs\routes\soapwebserviceimplroute2_0.1\target\SoapWebserviceImplRoute2-0.1.0.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.0.0:single (default) @ SoapWebserviceImplRoute2 ---
+[INFO] Reading assembly descriptor: C:\nss\TOS_ESB-20200219_1130-V7.3.1\Studio\workspace\LOCAL_PROJECT\poms\jobs\routes\soapwebserviceimplroute2_0.1/src/main/assemblies/assembly.xml
+[INFO] Building jar: C:\nss\TOS_ESB-20200219_1130-V7.3.1\Studio\workspace\LOCAL_PROJECT\poms\jobs\routes\soapwebserviceimplroute2_0.1\target\SoapWebserviceImplRoute2-0.1.0.jar
+[WARNING] Configuration option 'appendAssemblyId' is set to false.
+Instead of attaching the assembly file: C:\nss\TOS_ESB-20200219_1130-V7.3.1\Studio\workspace\LOCAL_PROJECT\poms\jobs\routes\soapwebserviceimplroute2_0.1\target\SoapWebserviceImplRoute2-0.1.0.jar, it will become the file for main project artifact.
+NOTE: If multiple descriptors or descriptor-formats are provided for this project, the value of this file will be non-deterministic!
+[WARNING] Replacing pre-existing project main-artifact file: C:\nss\TOS_ESB-20200219_1130-V7.3.1\Studio\workspace\LOCAL_PROJECT\poms\jobs\routes\soapwebserviceimplroute2_0.1\target\SoapWebserviceImplRoute2-0.1.0.jar
+with assembly file: C:\nss\TOS_ESB-20200219_1130-V7.3.1\Studio\workspace\LOCAL_PROJECT\poms\jobs\routes\soapwebserviceimplroute2_0.1\target\SoapWebserviceImplRoute2-0.1.0.jar
+[INFO] 
+[INFO] --< org.example.local_project.route:SoapWebserviceImplRoute2-feature >--
+[INFO] Building LOCAL_PROJECT SoapWebserviceImplRoute2-0.1.0 (0.1,Routes) Feature 0.1.0 [3/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- osgihelper-maven-plugin:7.3.1:generate (feature-helper) @ SoapWebserviceImplRoute2-feature ---
+[INFO] Resolve mvn:org.example.local_project.route/SoapWebserviceImplRoute2/0.1.0
+[INFO] 
+[INFO] --- karaf-maven-plugin:4.2.4:kar (create-kar) @ SoapWebserviceImplRoute2-feature ---
+[WARNING] The POM for org.codehaus.plexus:plexus-utils:jar:3.1.0 is missing, no dependency information available
+[WARNING] The POM for org.apache.commons:commons-lang3:jar:3.8.1 is missing, no dependency information available
+[WARNING] The POM for javax.enterprise:cdi-api:jar:1.0 is missing, no dependency information available
+[WARNING] The POM for org.codehaus.plexus:plexus-utils:jar:3.0.17 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.resolver:maven-resolver-api:jar:1.3.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.resolver:maven-resolver-util:jar:1.3.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.resolver:maven-resolver-impl:jar:1.3.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.resolver:maven-resolver-spi:jar:1.3.1 is missing, no dependency information available
+[WARNING] The POM for com.google.j2objc:j2objc-annotations:jar:1.1 is missing, no dependency information available
+[WARNING] The POM for org.slf4j:slf4j-api:jar:1.7.12 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven:maven-resolver-provider:jar:3.6.0 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.shared:maven-shared-utils:jar:0.7 is missing, no dependency information available
+[WARNING] The POM for org.codehaus.plexus:plexus-utils:jar:3.0.20 is missing, no dependency information available
+[WARNING] The POM for org.codehaus.plexus:plexus-interpolation:jar:1.21 is missing, no dependency information available
+[WARNING] The POM for org.codehaus.plexus:plexus-utils:jar:1.5.7 is missing, no dependency information available
+[WARNING] The POM for org.codehaus.plexus:plexus-classworlds:jar:1.2-alpha-9 is missing, no dependency information available
+[WARNING] The POM for org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-20 is missing, no dependency information available
+[WARNING] The POM for commons-collections:commons-collections:jar:3.2.2 is missing, no dependency information available
+[WARNING] The POM for jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2 is missing, no dependency information available
+[WARNING] The POM for jakarta.activation:jakarta.activation-api:jar:1.2.1 is missing, no dependency information available
+[INFO] Building jar: C:\nss\TOS_ESB-20200219_1130-V7.3.1\Studio\workspace\LOCAL_PROJECT\poms\jobs\routes\soapwebserviceimplroute2_0.1\target\soapwebserviceimplroute2_0_1.kar
+[WARNING] Your project should use the "kar" packaging or configure a "classifier" for kar attachment
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] LOCAL_PROJECT SoapWebserviceImplRoute2-0.1.0 (0.1,Routes) Kar 0.1.0 SUCCESS [  0.000 s]
+[INFO] LOCAL_PROJECT SoapWebserviceImplRoute2-0.1.0 (0.1,Routes) Bundle SUCCESS [  5.848 s]
+[INFO] LOCAL_PROJECT SoapWebserviceImplRoute2-0.1.0 (0.1,Routes) Feature 0.1.0 SUCCESS [  4.834 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.035 s
+[INFO] Finished at: 2020-07-08T18:57:57+05:30
+[INFO] ------------------------------------------------------------------------

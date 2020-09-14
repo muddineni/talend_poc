@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="AnotherSoapservice-feature">
+<feature name="AnotherSoapservice-feature" version="0.1.0">
+<feature>camel-spring</feature>
+<feature>camel-core</feature>
+<feature>camel-cxf</feature>
+<bundle>mvn:org.example.local_project.route/AnotherSoapservice/0.1.0</bundle>
+<config name="AnotherSoapservice.talendcontext.Default" override="true">
+</config>
+</feature>
+</features>

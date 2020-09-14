@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:WSDLSchemaConnection xmi:id="_xxDI8LxrEeqLqeId5fvjKQ" name="repository.metadataWSDLSchema" dataPackage="_xxDI8bxrEeqLqeId5fvjKQ" WSDL="pingservice" methodName="ping" UserName="" Password="" proxyHost="" proxyPort="" proxyUser="" proxyPassword="" timeOut="20"/>
+  <TalendMetadata:GenericPackage xmi:id="_xxDI8bxrEeqLqeId5fvjKQ" name="repository.metadataWSDLSchema" dataManager="_xxDI8LxrEeqLqeId5fvjKQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xxDI8rxrEeqLqeId5fvjKQ" id="_wc1IALxrEeqLqeId5fvjKQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WCHuULxsEeqLqeId5fvjKQ" name="hello" label="hello" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

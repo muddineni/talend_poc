@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="FileDelimitedRoute-feature">
+<feature name="FileDelimitedRoute-feature" version="0.1.0">
+<feature>camel-spring</feature>
+<feature>camel-blueprint</feature>
+<feature>camel-core</feature>
+<bundle>mvn:org.example.local_project.route/FileDelimitedRoute/0.1.0</bundle>
+<config name="FileDelimitedRoute.talendcontext.DEV" override="true">
+fileNameProp=Invoice_Summary_DEV.txt
+greeting=Hello World!!! I'm from DEV environment
+targetPath=C:\Users\584976\OneDrive - Cognizant\Documents\talend_test
+</config>
+<config name="FileDelimitedRoute.talendcontext.Default" override="true">
+fileNameProp=Invoice_Summary.txt
+greeting=Hello World!!! I'm from DEFAULT environment
+targetPath=C:\Users\584976\OneDrive - Cognizant\Documents\talend_test
+</config>
+</feature>
+</features>
